@@ -137,10 +137,10 @@
     }
 
     function tryAddButton() {
-        waitForElement('#subscribe-button-shape button', (subscribeButton) => {
+        waitForElement('#subscribe-button button', (subscribeButton) => {
             if (!document.querySelector('.youhou-download-btn')) {
                 const downloadButton = createDownloadButton();
-                const container = subscribeButton.closest('#subscribe-button-shape');
+                const container = subscribeButton.closest('#subscribe-button');
                 if (container) {
                     const wrapper = document.createElement('div');
                     wrapper.className = 'youhou-buttons-wrapper';
