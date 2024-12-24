@@ -27,6 +27,7 @@ A simple and easy-to-use YouTube video download script.
    [Install Script](https://raw.githubusercontent.com/yourusername/youtube_download_youhou/main/youtube_download.user.js)
 
 ## 使用方法 / Usage
+![alt text](image.png)
 
 1. 访问任意 YouTube 视频页面
    Visit any YouTube video page
